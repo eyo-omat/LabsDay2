@@ -12,7 +12,8 @@ words: function(str){
         for (var i = 0; i < wordCount; i++) {
             var pos = 0;
             if (wordsArray[pos] === wordsArray[i]) { countArray[0] = 1+count; }
-                pos++; console.log(pos);
+                pos++; 
+                console.log(pos);
         }
         console.log(countArray);
 }
