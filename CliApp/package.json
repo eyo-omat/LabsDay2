@@ -20,5 +20,8 @@
   "license": "ISC",
   "bin": {
     "chirp": "./app.js"
-  }
+  },
+  "keywords": [
+    "chirp"
+  ]
 }
