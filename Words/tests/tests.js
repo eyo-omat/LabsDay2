@@ -20,7 +20,7 @@ var myApp = require('../app/library.js');
       expect(myApp.words("one fish two fish red fish blue fish")).toEqual(expectedCounts);
     });
 
-/*    it("includes punctuation", function() {
+    it("includes punctuation", function() {
       var expectedCounts = { car: 1, ":": 2, carpet: 1, as: 1, java: 1, "javascript!!&@$%^&": 1 };
       expect(myApp.words("car : carpet as java : javascript!!&@$%^&")).toEqual(expectedCounts);
     });
@@ -58,6 +58,6 @@ var myApp = require('../app/library.js');
     it("handles properties that exist on Object's prototype", function() {
       var expectedCounts = { reserved: 1, words : 1, like :1,  prototype: 1, and : 1, toString: 1,  "ok?": 1};
       expect(myApp.words("reserved words like prototype and toString ok?")).toEqual(expectedCounts);
-    });*/
+    });
   });
 })();
